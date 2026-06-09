@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>影片搜索_欧美视频免费在线播放_高清电影与剧集推荐 - 闪光影视</title>
+  <meta name="description" content="闪光影视影片搜索，支持按片名、地区、类型、年份与标签检索高清电影和剧集。">
+  <meta name="keywords" content="影片搜索,欧美视频免费,在线播放,高清电影,剧集推荐,免费观看,影视">
+  <link rel="stylesheet" href="./assets/style.css">
+  
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="./index.html" aria-label="闪光影视">
+      <span class="brand-mark">S</span>
+      <span class="brand-text">
+        <span>闪光影视</span>
+        <small>高清电影与剧集推荐</small>
+      </span>
+    </a>
+    <nav class="desktop-nav" aria-label="主导航">
+      <a href="./index.html">首页</a>
+      <a href="./categories.html">分类</a>
+      <a href="./rank.html">排行榜</a>
+      <a href="./search.html">搜索</a>
+    </nav>
+    <form class="header-search" action="./search.html" method="get">
+      <input type="search" name="q" placeholder="搜索影片、地区、类型" aria-label="搜索影片">
+      <button type="submit">搜索</button>
+    </form>
+    <button class="mobile-toggle" type="button" aria-label="打开导航" aria-expanded="false">☰</button>
+  </div>
+  <div class="mobile-panel" hidden>
+    <form action="./search.html" method="get">
+      <input type="search" name="q" placeholder="搜索影片、地区、类型" aria-label="搜索影片">
+      <button type="submit">搜索</button>
+    </form>
+    <nav aria-label="移动导航">
+      <a href="./index.html">闪光影视</a>
+      <a href="./index.html">首页</a>
+      <a href="./categories.html">分类</a>
+      <a href="./rank.html">排行榜</a>
+      <a href="./search.html">搜索</a>
+    </nav>
+  </div>
+</header>
+<main class="page-main">
+  <section class="page-hero compact-hero">
+    <div class="container">
+      <nav class="breadcrumbs"><a href="./index.html">首页</a><span>/</span><span>搜索</span></nav>
+      <p class="eyebrow">影片搜索</p>
+      <h1>搜索高清电影与剧集</h1>
+      <p>输入片名、地区、类型、年份或标签，即可快速找到对应影片详情与播放入口。</p>
+      <form class="search-page-form" action="./search.html" method="get">
+        <input id="search-input" type="search" name="q" placeholder="输入关键词" aria-label="搜索关键词">
+        <button class="primary-button" type="submit">搜索</button>
+      </form>
+    </div>
+  </section>
+  <div class="container section-block">
+    <div id="search-results" class="movie-grid wide"></div>
+  </div>
+</main>
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <a class="brand footer-brand" href="./index.html" aria-label="闪光影视">
+        <span class="brand-mark">S</span>
+        <span class="brand-text">
+          <span>闪光影视</span>
+          <small>高清电影与剧集推荐</small>
+        </span>
+      </a>
+      <p>提供欧美高清电影与剧集的免费视频在线播放，并根据口碑与热度进行内容推荐。资源更新及时，画质清晰。</p>
+    </div>
+    <div>
+      <h2>分类导航</h2>
+      <div class="footer-links">
+        <a href="./category-spotlight.html">闪光精选</a><a href="./category-popular.html">热播推荐</a><a href="./category-cinema.html">高清影库</a><a href="./category-series.html">剧集片单</a><a href="./category-story.html">剧情优选</a>
+      </div>
+    </div>
+    <div>
+      <h2>快速入口</h2>
+      <div class="footer-links">
+        <a href="./categories.html">全部分类</a>
+        <a href="./rank.html">热播排行</a>
+        <a href="./search.html">影片搜索</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2026 闪光影视. 保留所有权利.</div>
+</footer>
+<script src="./assets/site.js"></script>
+<script src="./assets/search-index.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

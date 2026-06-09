@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>站内搜索 - 国产电影库</title>
+  <meta name="description" content="搜索热播国产电视剧高清全集、国产电影库与免费追剧内容。">
+  <meta name="keywords" content="搜索,热播国产电视剧高清全集免费看 - 国产电影库-免费追剧,国产,视频,免费,在线观看,高清,影视大全">
+  <link rel="stylesheet" href="assets/styles.css">
+  <script src="assets/main.js" defer></script>
+  <script src="assets/data-index.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="国产电影库">
+        <span class="brand-mark">影</span>
+        <span class="brand-text">国产电影库</span>
+        <span class="brand-sub">免费追剧</span>
+      </a>
+      <nav class="desktop-nav" aria-label="主导航">
+        <a class="nav-link" href="index.html">首页</a>
+        <a class="nav-link" href="categories.html">影视分类</a>
+        <a class="nav-link" href="all.html">全部片库</a>
+        <a class="nav-link" href="ranking.html">排行榜</a>
+      </nav>
+      <form class="header-search" action="search.html" method="get">
+        <input type="search" name="q" placeholder="搜索国产影视剧..." aria-label="搜索">
+        <button type="submit" aria-label="提交搜索">⌕</button>
+      </form>
+      <button class="mobile-toggle" type="button" aria-label="展开导航" data-mobile-toggle>☰</button>
+    </div>
+    <div class="mobile-menu" data-mobile-menu>
+      <a class="nav-link" href="index.html">首页</a>
+      <a class="nav-link" href="categories.html">影视分类</a>
+      <a class="nav-link" href="all.html">全部片库</a>
+      <a class="nav-link" href="ranking.html">排行榜</a>
+      <form class="mobile-search" action="search.html" method="get">
+        <input type="search" name="q" placeholder="搜索国产影视剧..." aria-label="搜索">
+        <button type="submit">搜索</button>
+      </form>
+    </div>
+  </header>
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <span class="section-kicker">Search</span>
+        <h1>站内搜索</h1>
+        <p>输入影片名、地区、年份、类型或标签，快速定位片库内容。</p>
+      </div>
+    </section>
+    <section class="container section-block">
+      <form class="search-page-form" action="search.html" method="get">
+        <input type="search" name="q" data-search-page-input placeholder="搜索影片、地区、年份、标签...">
+        <button class="btn btn-primary" type="submit">搜索</button>
+      </form>
+      <div class="search-status" data-search-status></div>
+      <div class="movie-grid" data-search-results></div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand footer-brand" href="index.html">
+          <span class="brand-mark">影</span>
+          <span class="brand-text">国产电影库</span>
+          <span class="brand-sub">免费追剧</span>
+        </a>
+        <p>热播国产电视剧高清全集合集约费观看，同时提供丰富的国产电影库。资源正版合规，涵盖面广，是观看国产影视剧的可靠平台。</p>
+      </div>
+      <div>
+        <h3>频道入口</h3>
+        <div class="footer-links">
+          <a href="category-domestic-hot.html">国剧热播</a>
+          <a href="category-suspense.html">悬疑推理</a>
+          <a href="category-romance.html">爱情都市</a>
+          <a href="category-action-crime.html">动作犯罪</a>
+          <a href="category-war-history.html">战争历史</a>
+          <a href="category-comedy-life.html">喜剧生活</a>
+          <a href="category-sci-fi-fantasy.html">科幻奇幻</a>
+          <a href="category-horror-thriller.html">惊悚恐怖</a>
+        </div>
+      </div>
+      <div>
+        <h3>快速访问</h3>
+        <div class="footer-links">
+          <a href="all.html">全部片库</a>
+          <a href="ranking.html">热播排行榜</a>
+          <a href="categories.html">分类总览</a>
+          <a href="search.html">站内搜索</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
